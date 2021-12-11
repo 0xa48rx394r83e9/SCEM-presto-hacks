@@ -1,7 +1,7 @@
 # SCEMS-presto-hacks
 This was a 3-day project and will no longer be worked on
 
-![alt text](https://media.discordapp.net/attachments/783630345189982231/916669607526420520/Screenshot_2021-12-04_at_8.37.39_PM.png)
+![alt text](https://media.discordapp.net/attachments/919176406787850291/919176469702389790/logo11.png?width=776&height=451)
 
 ## General Description
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nulla aliquet porttitor lacus luctus accumsan. Sollicitudin tempor id eu nisl. Sodales ut eu sem integer vitae justo eget. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet commodo nulla facilisi nullam. Neque gravida in fermentum et sollicitudin ac orci phasellus.
