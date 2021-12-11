@@ -14,8 +14,8 @@ var glitchMaterial = require('../materials/glitchMaterial');
  * @requires THREE, TweenLite, SOUNDS, random, yoyo, glitchMaterial
  */
 function Ball () {
-  var texture = THREE.ImageUtils.loadTexture('./public/img/texture-ball.png');
-  var textureAlpha = THREE.ImageUtils.loadTexture('./public/img/texture-ballAlpha.png');
+  var texture = THREE.ImageUtils.loadTexture('./public/public/img/texture-ball.png');
+  var textureAlpha = THREE.ImageUtils.loadTexture('./public/public/img/texture-ballAlpha.png');
   texture.wrapS = textureAlpha.wrapS = THREE.RepeatWrapping;
   texture.wrapT = textureAlpha.wrapT = THREE.RepeatWrapping;
   texture.repeat.x = textureAlpha.repeat.x = 0;

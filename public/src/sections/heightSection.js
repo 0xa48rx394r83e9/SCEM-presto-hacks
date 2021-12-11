@@ -11,9 +11,9 @@ var heightMap = new HeightMap({
   plane: false,
   points: false,
   maps: [
-    { name: 'A', url: './public/img/heightMap-A.jpg' },
-    { name: 'B', url: './public/img/heightMap-B.jpg' },
-    { name: 'O', url: './public/img/heightMap-O.jpg' }
+    { name: 'A', url: './public/public/img/heightMap-A.jpg' },
+    { name: 'B', url: './public/public/img/heightMap-B.jpg' },
+    { name: 'O', url: './public/public/img/heightMap-O.jpg' }
   ]
 });
 heightMap.el.position.z = -10;

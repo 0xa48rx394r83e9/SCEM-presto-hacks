@@ -4,7 +4,7 @@ var TweenLite = require('gsap');
 var yoyo = require('../utils/yoyoUtil');
 
 var matCap = require('../materials/matCapMaterial');
-matCap.uniforms.map.value = THREE.ImageUtils.loadTexture('./public/img/matCap-shiny.jpg');
+matCap.uniforms.map.value = THREE.ImageUtils.loadTexture('./public/public/img/matCap-shiny.jpg');
 
 /**
  * 3D face

@@ -42,10 +42,10 @@ jQuery(function () {
   var help = new Help();
   var menu = new Menu();
   var imagesLoader = new ImagesLoader([
-    './public/img/texture-ball.png',
-    './public/img/texture-ballAlpha.png',
-    './public/img/sprite-smoke.png',
-    './public/img/sprite-AKQA.png'
+    './public/public/img/texture-ball.png',
+    './public/public/img/texture-ballAlpha.png',
+    './public/public/img/sprite-smoke.png',
+    './public/public/img/sprite-AKQA.png'
   ]);
 
   // preload
