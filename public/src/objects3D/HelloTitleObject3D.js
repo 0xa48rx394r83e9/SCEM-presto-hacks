@@ -15,14 +15,14 @@ function Title () {
   var path;
 
   var sprites = {
-    akqa: './app/public/img/sprite-AKQA.png',
-    hki: './app/public/img/sprite-HKI.png',
-    grouek: './app/public/img/sprite-grouek.png',
-    mediamonks: './app/public/img/sprite-mediamonks.png',
-    none: './app/public/img/sprite-none.png',
-    soleilnoir: './app/public/img/sprite-soleilnoir.png',
-    thread: './app/public/img/sprite-thread.png',
-    ultranoir: './app/public/img/sprite-ultranoir.png'
+    akqa: './public/img/sprite-AKQA.png',
+    hki: './public/img/sprite-HKI.png',
+    grouek: './public/img/sprite-grouek.png',
+    mediamonks: './public/img/sprite-mediamonks.png',
+    none: './public/img/sprite-none.png',
+    soleilnoir: './public/img/sprite-soleilnoir.png',
+    thread: './public/img/sprite-thread.png',
+    ultranoir: './public/img/sprite-ultranoir.png'
   };
 
   if (sprites[HASH.hash]) {
