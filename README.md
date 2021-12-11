@@ -24,13 +24,14 @@ What’s next?
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nulla aliquet porttitor lacus luctus accumsan. Sollicitudin tempor id eu nisl. Sodales ut eu sem integer vitae justo eget. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet commodo nulla facilisi nullam. Neque gravida in fermentum et sollicitudin ac orci phasellus.
 
 ### Future Features
-    - Hosting the website through AWS
-    - AWS WAF – prevent sql injection
+  - Hosting the website through AWS
+  - AWS WAF – prevent sql injection
 
 ## Technologies used
-    -Framework: Blitz.js
-    -Database: SQLite
-    -Encryption: SHA256 + RSA. Salt and Peppering Hashes using bcrypt – privacy, anonymity
+  - Framework: Blitz.js
+  - Database: SQLite
+  - Encryption: SHA256 + RSA. Salt and Peppering Hashes using bcrypt – privacy, anonymity
+  - Other: 3DJS
 
 
 ## Presentation
