@@ -1,9 +1,10 @@
-import { BlitzConfig, sessionMiddleware, simpleRolesIsAuthorized } from "blitz"
+const { sessionMiddleware, simpleRolesIsAuthorized } = require("@blitzjs/server")
 
-const config: BlitzConfig = {
+const withTM = require("next-transpile-modules")(["@react-three/drei", "three"])
+
+module.exports = withTM({
   middleware: [
     sessionMiddleware({
-      cookiePrefix: "SCEM-presto-hacks",
       isAuthorized: simpleRolesIsAuthorized,
     }),
   ],
@@ -15,5 +16,4 @@ const config: BlitzConfig = {
     return config
   },
   */
-}
-module.exports = config
+})

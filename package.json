@@ -1,5 +1,5 @@
 {
-  "name": "SCEM-presto-hacks",
+  "name": "react-three-blitz",
   "version": "1.0.0",
   "scripts": {
     "dev": "blitz dev",
@@ -8,9 +8,11 @@
     "studio": "blitz prisma studio",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "prepare": "husky install"
+    "test:watch": "jest --watch"
   },
+  "browserslist": [
+    "defaults"
+  ],
   "prisma": {
     "schema": "db/schema.prisma"
   },
@@ -18,34 +20,52 @@
     "semi": false,
     "printWidth": 100
   },
+  "xhusky": {
+    "hooks": {
+      "pre-commit": "lint-staged && pretty-quick --staged",
+      "pre-push": "tsc && npm run lint && npm run test"
+    }
+  },
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --fix"
     ]
   },
   "dependencies": {
-    "@prisma/client": "3.6.0",
-    "@react-three/fiber": "7.0.23",
-    "blitz": "0.44.3",
-    "final-form": "4.20.6",
-    "react": "18.0.0-beta-149b420f6-20211119",
-    "react-dom": "18.0.0-alpha-5ca4b0433-20211020",
-    "react-final-form": "6.5.7",
-    "three": "0.135.0",
-    "zod": "3.11.6"
+    "@prisma/client": "~2.16",
+    "@react-three/drei": "3.8.6",
+    "blitz": "0.30.0-canary.14",
+    "final-form": "4.20.1",
+    "mathjs": "9.2.0",
+    "next-themes": "0.0.12",
+    "next-transpile-modules": "6.3.0",
+    "prisma": "~2.16",
+    "r3f-perf": "0.82.0",
+    "react": "0.0.0-experimental-3310209d0",
+    "react-dom": "0.0.0-experimental-3310209d0",
+    "react-error-boundary": "3.1.0",
+    "react-final-form": "6.5.2",
+    "react-three-fiber": "5.3.18",
+    "react-three-flex": "0.5.2",
+    "styled-components": "5.2.1",
+    "tailwindcss": "2",
+    "three": "0.122.0",
+    "typescript": "4.1.5",
+    "zod": "1.11.11"
   },
   "devDependencies": {
-    "@types/preview-email": "2.0.1",
-    "@types/react": "17.0.37",
-    "eslint": "7.32.0",
-    "husky": "7.0.4",
-    "lint-staged": "11.3.0-beta.2",
-    "prettier-plugin-prisma": "3.6.0",
-    "prettier": "2.5.1",
-    "pretty-quick": "3.1.2",
-    "preview-email": "3.0.5",
-    "prisma": "3.6.0",
-    "typescript": "~4.5"
+    "@types/preview-email": "2.0.0",
+    "@types/react": "17.0.2",
+    "@types/mathjs": "6.0.11",
+    "autoprefixer": "10",
+    "eslint": "7.20.0",
+    "husky": "4.3.8",
+    "lint-staged": "10.5.4",
+    "postcss": "8",
+    "prettier": "2.2.1",
+    "prettier-plugin-prisma": "0.4.0",
+    "pretty-quick": "3.1.0",
+    "preview-email": "3.0.3"
   },
   "private": true
 }

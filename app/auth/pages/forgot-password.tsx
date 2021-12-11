@@ -28,7 +28,7 @@ const ForgotPasswordPage: BlitzPage = () => {
           onSubmit={async (values) => {
             try {
               await forgotPasswordMutation(values)
-            } catch (error: any) {
+            } catch (error) {
               return {
                 [FORM_ERROR]: "Sorry, we had an unexpected error. Please try again.",
               }
@@ -42,7 +42,6 @@ const ForgotPasswordPage: BlitzPage = () => {
   )
 }
 
-ForgotPasswordPage.redirectAuthenticatedTo = "/"
 ForgotPasswordPage.getLayout = (page) => <Layout title="Forgot Your Password?">{page}</Layout>
 
 export default ForgotPasswordPage

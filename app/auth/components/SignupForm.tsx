@@ -1,3 +1,4 @@
+import React from "react"
 import { useMutation } from "blitz"
 import { LabeledTextField } from "app/core/components/LabeledTextField"
 import { Form, FORM_ERROR } from "app/core/components/Form"
@@ -23,7 +24,7 @@ export const SignupForm = (props: SignupFormProps) => {
           try {
             await signupMutation(values)
             props.onSuccess?.()
-          } catch (error: any) {
+          } catch (error) {
             if (error.code === "P2002" && error.meta?.target?.includes("email")) {
               // This error comes from Prisma
               return { email: "This email is already being used" }

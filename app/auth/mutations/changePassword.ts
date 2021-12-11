@@ -12,7 +12,7 @@ export default resolver.pipe(
 
     await authenticateUser(user.email, currentPassword)
 
-    const hashedPassword = await SecurePassword.hash(newPassword.trim())
+    const hashedPassword = await SecurePassword.hash(newPassword)
     await db.user.update({
       where: { id: user.id },
       data: { hashedPassword },

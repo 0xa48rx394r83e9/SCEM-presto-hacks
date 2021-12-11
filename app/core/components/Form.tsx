@@ -1,7 +1,6 @@
-import { ReactNode, PropsWithoutRef } from "react"
+import React, { ReactNode, PropsWithoutRef } from "react"
 import { Form as FinalForm, FormProps as FinalFormProps } from "react-final-form"
-import { z } from "zod"
-import { validateZodSchema } from "blitz"
+import * as z from "zod"
 export { FORM_ERROR } from "final-form"
 
 export interface FormProps<S extends z.ZodType<any, any>>
@@ -26,7 +25,14 @@ export function Form<S extends z.ZodType<any, any>>({
   return (
     <FinalForm
       initialValues={initialValues}
-      validate={validateZodSchema(schema)}
+      validate={(values) => {
+        if (!schema) return
+        try {
+          schema.parse(values)
+        } catch (error) {
+          return error.formErrors.fieldErrors
+        }
+      }}
       onSubmit={onSubmit}
       render={({ handleSubmit, submitting, submitError }) => (
         <form onSubmit={handleSubmit} className="form" {...props}>
@@ -40,7 +46,11 @@ export function Form<S extends z.ZodType<any, any>>({
           )}
 
           {submitText && (
-            <button type="submit" disabled={submitting}>
+            <button
+              type="submit"
+              className="bg-deep-purple hover:bg-purple-700 rounded p-2 text-white"
+              disabled={submitting}
+            >
               {submitText}
             </button>
           )}

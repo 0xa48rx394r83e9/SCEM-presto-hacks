@@ -1,18 +1,19 @@
-import { AuthenticationError, Link, useMutation, Routes, PromiseReturnType } from "blitz"
+import React from "react"
+import { AuthenticationError, Link, useMutation } from "blitz"
 import { LabeledTextField } from "app/core/components/LabeledTextField"
 import { Form, FORM_ERROR } from "app/core/components/Form"
 import login from "app/auth/mutations/login"
 import { Login } from "app/auth/validations"
 
 type LoginFormProps = {
-  onSuccess?: (user: PromiseReturnType<typeof login>) => void
+  onSuccess?: () => void
 }
 
 export const LoginForm = (props: LoginFormProps) => {
   const [loginMutation] = useMutation(login)
 
   return (
-    <div>
+    <div className="mt-32">
       <h1>Login</h1>
 
       <Form
@@ -21,9 +22,9 @@ export const LoginForm = (props: LoginFormProps) => {
         initialValues={{ email: "", password: "" }}
         onSubmit={async (values) => {
           try {
-            const user = await loginMutation(values)
-            props.onSuccess?.(user)
-          } catch (error: any) {
+            await loginMutation(values)
+            props.onSuccess?.()
+          } catch (error) {
             if (error instanceof AuthenticationError) {
               return { [FORM_ERROR]: "Sorry, those credentials are invalid" }
             } else {
@@ -37,15 +38,18 @@ export const LoginForm = (props: LoginFormProps) => {
       >
         <LabeledTextField name="email" label="Email" placeholder="Email" />
         <LabeledTextField name="password" label="Password" placeholder="Password" type="password" />
-        <div>
-          <Link href={Routes.ForgotPasswordPage()}>
+        <div className="bg-gray-400 hover:bg-purple-700 text-white rounded p-2 flex-grow-0">
+          <Link href="/forgot-password">
             <a>Forgot your password?</a>
           </Link>
         </div>
       </Form>
 
       <div style={{ marginTop: "1rem" }}>
-        Or <Link href={Routes.SignupPage()}>Sign Up</Link>
+        Or{" "}
+        <div className="bg-gray-400 hover:bg-purple-700 text-white rounded p-2 flex-grow-0">
+          <Link href="/signup3d">Sign Up</Link>
+        </div>
       </div>
     </div>
   )
