@@ -4,21 +4,12 @@ import * as THREE from "three"
 import React, { Suspense, useEffect, useRef, useState } from "react"
 import { Canvas, useLoader, useFrame } from "react-three-fiber"
 import dynamic from "next/dynamic"
-
-// const Text = dynamic(import("./Text"), {
-//   ssr: false,
-// });
-
-// @ts-ignore
-// import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { useGLTF } from "@react-three/drei"
-//import { useGLTF } from 'drei'
 import Text from "./Text"
 import Layout from "app/core/layouts/Layout"
 import AxesHelper from "./AxesHelper"
 import Content from "./content"
 import { Html as HTML } from "@react-three/drei"
-// import './styles.css'
 
 export function Logo() {
   const { nodes, materials } = useGLTF("BlitzLogo.glb")
@@ -28,7 +19,6 @@ export function Logo() {
       <group
         position={[5.5, -0.5, 0.5]}
         scale={[1.5, 1.5, 1.5]}
-        // rotation={[math.unit(180, 'deg').toNumber('rad'), math.unit(90, 'deg').toNumber('rad'), 0]}
       >
         {/* <AxesHelper /> */}
         <mesh material={new THREE.MeshNormalMaterial()} geometry={(nodes.path1 as any).geometry} />
@@ -53,12 +43,12 @@ function Jumbo() {
         rotation={[math.unit(180, "deg").toNumber("rad"), math.unit(90, "deg").toNumber("rad"), 0]}
       >
         {/* <AxesHelper /> */}
-        <mesh material={new THREE.MeshNormalMaterial()} geometry={(nodes.path1 as any).geometry} />
+        {/* <mesh material={new THREE.MeshNormalMaterial()} geometry={(nodes.path1 as any).geometry} /> */}
       </group>
       {/* <mesh geometry={(nodes. || nodes.shoe_0).geometry} material={materials.laces} material-color={items.laces} /> */}
-      <Text hAlign="left" position={[0, 4.2, 0]} children="REACT" />
-      <Text hAlign="left" position={[0, 0, 0]} children="THREE" />
-      <Text hAlign="left" position={[0, -4.2, 0]} children="BLITZ" />
+      <Text hAlign="center" position={[-10, 4.2, 0]} children="REACT" />
+      <Text hAlign="center" position={[-10, 0, 0]} children="THREE" />
+      <Text hAlign="center" position={[-10, -4.2, 0]} children="MATEO" />
     </group>
   )
 }
@@ -124,9 +114,6 @@ interface HeroProps {
 }
 
 const Hero = ({ r3f }: HeroProps) => {
-  //   return window ? (
-  // <Suspense fallback={null}>
-  //   <Canvas camera={{ position: [0, 0, 35] }}>
   return (
     <>
       <ambientLight intensity={2} />
@@ -145,9 +132,6 @@ const Hero = ({ r3f }: HeroProps) => {
       </group>
     </>
   )
-  //       </Canvas>
-  //     </Suspense>
-  //   ) : null;
 }
 
 export default Hero
