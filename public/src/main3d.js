@@ -1,12 +1,8 @@
-require('./polyfills/animFramePolyfill');
-require('./polyfills/bindPolyfill');
-require('./polyfills/indexOfPolyfill');
-
 var jQuery = require('jquery');
 var TweenLite = require('gsap');
 TweenLite.defaultEase = window.Quad.easeInOut;
 
-require('./libs/waypointLib');
+import 'src/libs/waypointLib';
   
 var APP = require('./modules/appModule');
 var SCENE = require('./modules/sceneModule');
@@ -101,6 +97,19 @@ jQuery(function () {
   SCENE.setViewport($viewport);
   SCENE.addSections([
     helloSection,
+    beamsSection,
+    dropSection,
+    ballSection,
+    flowSection,
+    neonsSection,
+    heightSection,
+    waveSection,
+    faceSection,
+    rocksSection,
+    galaxySection,
+    gravitySection,
+    citySection,
+    endSection,
   ]);
 
   SCENE.on('section:changeBegin', function () {
