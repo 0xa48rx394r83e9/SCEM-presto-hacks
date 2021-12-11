@@ -1,48 +1,34 @@
 # SCEMS-presto-hacks
-This was a 3-day project.
+This was a 3-day project and will no longer be worked on
 
 ![alt text](https://media.discordapp.net/attachments/783630345189982231/916669607526420520/Screenshot_2021-12-04_at_8.37.39_PM.png)
 
 ## General Description
-This project was made for and submitted to the hackwise hackathon competition (hackwise.org). The theme of the hackathon was UN sustainable development goals (https://sdgs.un.org/goals) and we chose to submit this project for the following categories; SDG1 - 'No Poverty' and  SDG5 - 'Gender Equality'. The competition was 3 days long and spanned across Friday 2021-12-3 to Sunday 2021-12-5. Ultimately, we finished 1st place under the 'No Poverty' category. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nulla aliquet porttitor lacus luctus accumsan. Sollicitudin tempor id eu nisl. Sodales ut eu sem integer vitae justo eget. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet commodo nulla facilisi nullam. Neque gravida in fermentum et sollicitudin ac orci phasellus.
 
 
 ## Background
-We all know that education is incredibly important. They’re a gateway to new jobs, new skills, and new opportunities. But the problem is, millions across the world are still unable to access good sources of education. This includes people who live in countries generally perceived as wealthier, such as the USA, Canada, or where our team members live - in Singapore. According to the NASSP, statistics show that students who come from lower-income families experience far more challenges than their fellow people.
-
-There are a lot of great online courses. But it’s incredibly difficult to find personalized help for free online; compared to families from more affluent backgrounds who can afford actual tutors. This is the biggest problem; that there’s a huge gap in the resources that different people can access. 
-
-There’s a second problem, and that’s that there’s often a lack of connection and awareness between people of these different backgrounds. And although there are lots of charities out there, we often find ourselves asking: how else can we support them in a way that’s direct and impactful?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nulla aliquet porttitor lacus luctus accumsan. Sollicitudin tempor id eu nisl. Sodales ut eu sem integer vitae justo eget. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet commodo nulla facilisi nullam. Neque gravida in fermentum et sollicitudin ac orci phasellus.
 
 
 
-## What is Libr
-Libr attempts to solve these problems. It recruits regular people from all across the world - so any of us can participate - to become mentors and tutors for students from low-income or marginalized backgrounds who still have Internet access. And by crowdsourcing the support and tutoring, we hope to increase the degree of personal connection and awareness about this issue.
+## What is Virtuoso
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nulla aliquet porttitor lacus luctus accumsan. Sollicitudin tempor id eu nisl. Sodales ut eu sem integer vitae justo eget. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet commodo nulla facilisi nullam. Neque gravida in fermentum et sollicitudin ac orci phasellus.
 
 ### Features
-The main component of our website is our mentor system, where you can play a part in helping out young people in developing countries with others across the world. 
-Upon signing up for the website, you can apply to be a mentor for students and classes in need by visiting their profiles. 
-Students can also be mentors to pass on what they’ve learned!
-Your students can get invited to classrooms you teach in, where you and other mentors can work with them to give personalized support! So it’s not a one-on-one tutoring session - there are many mentors. These classrooms have many collaborative tools, such as:
-Community materials: where you can explore and create highly collaborative, human-checked resources to support your studies online.
-Community lectures: where you can tune into live sessions with other students and mentors from a variety of classrooms.
-Community courses
-Chat: Discuss with others and receive help + feedback in real time.
-Being a great mentor and contributing to community resources reward you with Reputation Points. Earn badges and see where you rank on the teaching leaderboards!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nulla aliquet porttitor lacus luctus accumsan. Sollicitudin tempor id eu nisl. Sodales ut eu sem integer vitae justo eget. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet commodo nulla facilisi nullam. Neque gravida in fermentum et sollicitudin ac orci phasellus.
 
 
 ## What's Next
 What’s next?
-Polishing our design for the website to ensure consistency, as well as creating the backend for adding live functionality for the user network, so that profiles can invite each other and collaborate. We also want to host files and courses that users have uploaded, as well as creating a working search function for materials so you can explore them. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nulla aliquet porttitor lacus luctus accumsan. Sollicitudin tempor id eu nisl. Sodales ut eu sem integer vitae justo eget. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet commodo nulla facilisi nullam. Neque gravida in fermentum et sollicitudin ac orci phasellus.
+
 ### Future Features
     - Hosting the website through AWS
     - AWS WAF – prevent sql injection
-    - messaging chat app + web rtc – video chat app
-    - appen – AI to moderate the website
 
 ## Technologies used
-    -Backend: Flask in Python
-    -Frontend: jinja2 styled with html and css
+    -Framework: Blitz.js
     -Database: SQLite
     -Encryption: SHA256 + RSA. Salt and Peppering Hashes using bcrypt – privacy, anonymity
 
@@ -57,9 +43,9 @@ Our Presentation: https://www.youtube.com/watch?v=T1esgEwWL38
 
 
 
-## Credit (Our 5 teammembers):
+## Credit (Our 4 teammembers):
+_Due to our use of vsc live share the contributions of each member is not accuratley dipicted by githubs contribution graph_
     -Joseph Paulmer  (0xa48rx394r83e9)
     -Mateo Weigel    (MateoW-32)
     -Jayden Chee     (ChaoticPsycho)
     -Brenden Chee    (Skywalkerbc22)
-    -Taisei Yasuno   (KaiserLab)
