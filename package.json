@@ -25,12 +25,14 @@
   },
   "dependencies": {
     "@prisma/client": "3.6.0",
+    "@react-three/fiber": "7.0.23",
     "blitz": "0.44.3",
-    "react-dom": "18.0.0-alpha-5ca4b0433-20211020",
-    "react": "18.0.0-beta-149b420f6-20211119",
-    "zod": "3.11.6",
     "final-form": "4.20.6",
-    "react-final-form": "6.5.7"
+    "react": "18.0.0-beta-149b420f6-20211119",
+    "react-dom": "18.0.0-alpha-5ca4b0433-20211020",
+    "react-final-form": "6.5.7",
+    "three": "0.135.0",
+    "zod": "3.11.6"
   },
   "devDependencies": {
     "@types/preview-email": "2.0.1",
