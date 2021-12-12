@@ -49,7 +49,7 @@ Our Presentation: https://www.youtube.com/watch?v=T1esgEwWL38
 
 ## Credit (Our 4 teammembers):
 _Due to our use of vsc live share the contributions of each member is not accuratley dipicted by githubs contribution graph_
-    -Joseph Paulmer  (0xa48rx394r83e9)
-    -Mateo Weigel    (MateoW-32)
-    -Jayden Chee     (ChaoticPsycho)
-    -Brenden Chee    (Skywalkerbc22)
+  - Joseph Paulmer  (0xa48rx394r83e9)
+  - Mateo Weigel    (MateoW-32)
+  - Jayden Chee     (ChaoticPsycho)
+  - Brenden Chee    (Skywalkerbc22)
