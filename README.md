@@ -1,7 +1,7 @@
 # SCEMS-presto-hacks
 This was a 3-day project and will no longer be worked on
 
-![alt text](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+![alt text] (https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## General Description
 Across the entire globe in the 21st century, we have come to realise that Classical Music is on a constant deteriorating incline in terms of popularity and awareness. In reponse to this crisis, we have strived to produce a website/software which allows classical musicians to find like-minded individuals, and provide them with a overarching number of features to assist their musical lives with technology.
