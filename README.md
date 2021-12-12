@@ -39,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 ## Presentation
 Our Presentation: https://www.youtube.com/watch?v=DinO00YZOw4
 ![image](https://user-images.githubusercontent.com/74163157/145718852-7fa68097-02e8-4175-a4c1-be2ba83d75a7.png)
-![image](https://user-images.githubusercontent.com/74163157/145718844-1bcafcb7-167a-4ab0-8e14-62419ec7e759.png)
+![image](https://user-images.githubusercontent.com/74163157/145718917-ba775921-1412-4ebf-902d-cc6267004cfc.png)
 ![image](https://user-images.githubusercontent.com/74163157/145718833-f69c354e-32d4-4d65-8477-62e49e7163c9.png)
 
 
