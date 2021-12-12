@@ -13,15 +13,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 ## What is Virtuoso
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nulla aliquet porttitor lacus luctus accumsan. Sollicitudin tempor id eu nisl. Sodales ut eu sem integer vitae justo eget. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet commodo nulla facilisi nullam. Neque gravida in fermentum et sollicitudin ac orci phasellus.
+Virtuoso is a musical community platform by musicians for musicians. Its purpose is to provide tools for musicians and connect musicians together virtually.
 
 ### Features
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nulla aliquet porttitor lacus luctus accumsan. Sollicitudin tempor id eu nisl. Sodales ut eu sem integer vitae justo eget. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet commodo nulla facilisi nullam. Neque gravida in fermentum et sollicitudin ac orci phasellus.
-
+Virtuoso offers a large variety of tools and feature for musicians.
+For beginner musicians we offer a short and vidually appealing semi-interactive web page guiding users through the different ages of music.
+We also Offer a small quizes for users to brush up their theory skills.
+The main objective we hope to achieve is to build and bring together musicians. Our main features include commnunity formuns and chatrooms and a music sharing and streaming section which allows for donations to support struggeling musicians.
+Our by far most innovative feature is where Musicians can play songs and be accompanied by Artifical Intelligence.
 
 ## What's Next
 What’s next?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nulla aliquet porttitor lacus luctus accumsan. Sollicitudin tempor id eu nisl. Sodales ut eu sem integer vitae justo eget. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet commodo nulla facilisi nullam. Neque gravida in fermentum et sollicitudin ac orci phasellus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 
 ### Future Features
   - Hosting the website through AWS
