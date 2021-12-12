@@ -37,11 +37,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 
 
 ## Presentation
-Our Presentation: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-![alt text](https://media.discordapp.net/attachments/917233946859814923/917234190813106186/the_presentation.png)
-![alt text](https://media.discordapp.net/attachments/917233946859814923/917234191161262100/the_presentation1.png)
-![alt text](https://media.discordapp.net/attachments/917233946859814923/917234191744253982/the_presentation2.png)
-![alt text](https://media.discordapp.net/attachments/917233946859814923/917234192004304996/the_presentation3.png)
+Our Presentation: https://www.youtube.com/watch?v=DinO00YZOw4
+![image](https://user-images.githubusercontent.com/74163157/145718852-7fa68097-02e8-4175-a4c1-be2ba83d75a7.png)
+![image](https://user-images.githubusercontent.com/74163157/145718844-1bcafcb7-167a-4ab0-8e14-62419ec7e759.png)
+![image](https://user-images.githubusercontent.com/74163157/145718833-f69c354e-32d4-4d65-8477-62e49e7163c9.png)
 
 
 
