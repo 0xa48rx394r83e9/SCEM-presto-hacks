@@ -32,6 +32,7 @@
     ]
   },
   "dependencies": {
+    "@juggle/resize-observer": "3.3.1",
     "@prisma/client": "~2.16",
     "@react-three/drei": "3.8.6",
     "blitz": "0.30.0-canary.14",
@@ -43,7 +44,7 @@
     "mathjs": "9.2.0",
     "next-themes": "0.0.12",
     "next-transpile-modules": "6.3.0",
-    "prisma": "~2.16",
+    "prisma": "3.6.0",
     "r3f-perf": "0.82.0",
     "react": "0.0.0-experimental-3310209d0",
     "react-dom": "0.0.0-experimental-3310209d0",
@@ -51,6 +52,7 @@
     "react-final-form": "6.5.2",
     "react-three-fiber": "5.3.18",
     "react-three-flex": "0.5.2",
+    "react-use": "17.3.1",
     "styled-components": "5.2.1",
     "tailwindcss": "2",
     "three": "0.122.0",

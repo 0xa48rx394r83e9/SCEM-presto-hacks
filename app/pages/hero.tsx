@@ -49,6 +49,16 @@ function Jumbo() {
       <Text hAlign="center" position={[-10, 4.2, 0]} children="REACT" />
       <Text hAlign="center" position={[-10, 0, 0]} children="THREE" />
       <Text hAlign="center" position={[-10, -4.2, 0]} children="MATEO" />
+      <Text hAlign="center" position={[-10, -8.4, 0]} children="MATEO" />
+      <Text hAlign="center" position={[-10, -12.6, 0]} children="MATEO" />
+      <Text hAlign="center" position={[-10, -16.8, 0]} children="MATEO" />
+      <Text hAlign="center" position={[-10, -21.2, 0]} children="MATEO" />
+      <Text hAlign="center" position={[-10, -25.4, 0]} children="MATEO" />
+      <Text hAlign="center" position={[-10, -29.6, 0]} children="MATEO" />
+      <Text hAlign="center" position={[-10, -33.8, 0]} children="MATEO" />
+      <Text hAlign="center" position={[-10, -37.0, 0]} children="MATEO" />
+      <Text hAlign="center" position={[-10, -41.2, 0]} children="MATEO" />
+      <Text hAlign="center" position={[-10, -45.4, 0]} children="MATEO" />
     </group>
   )
 }
@@ -118,7 +128,7 @@ const Hero = ({ r3f }: HeroProps) => {
     <>
       <ambientLight intensity={2} />
       <pointLight position={[40, 40, 40]} />
-      <group position={[5, 15, -30]}>
+      <group position={[10, 15, -30]}>
         <Suspense
           fallback={
             <HTML>
