@@ -9,7 +9,7 @@ Across the entire globe in the 21st century, we have come to realise that Classi
 
 
 ## Background
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placerat orci nulla pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Nulla aliquet porttitor lacus luctus accumsan. Sollicitudin tempor id eu nisl. Sodales ut eu sem integer vitae justo eget. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet commodo nulla facilisi nullam. Neque gravida in fermentum et sollicitudin ac orci phasellus.
+During Covid-19, we all found it very difficult to perform and play music with others, and during this two year period, we found it difficult to continue to pursue our passion in music with friends. Therefore, we have developed Virtuoso to provide musicians, wherever they may be with the vital resources and a harmonious community of musicians, in order to continue to pursue their musical hobby with ease in the current pandemic.
 
 
 
