@@ -1,5 +1,4 @@
 # SCEMS-presto-hacks
-This was a 3-day project and will no longer be worked on
 
 ![image](https://user-images.githubusercontent.com/74163157/145707400-6fa69372-b2c8-49d7-af08-fb6d95ff6760.png)
 (https://www.youtube.com/watch?v=dQw4w9WgXcQ)
